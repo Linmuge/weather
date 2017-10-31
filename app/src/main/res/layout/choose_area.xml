@@ -4,14 +4,19 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff"
-    android:fitsSystemWindows="true">
+    android:background="?attr/colorPrimary"
+    android:fitsSystemWindows="true"
+    android:paddingTop="20dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary">
+        android:layout_height="70dp">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/choose_area_title_bg"
+            android:contentDescription="@null" />
         <TextView
             android:id="@+id/title_text"
             android:layout_width="wrap_content"
@@ -22,10 +27,9 @@
 
         <Button
             android:id="@+id/back_button"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_marginLeft="10dp"
-            android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:background="@drawable/ic_back"/>
     </RelativeLayout>
@@ -33,6 +37,7 @@
     <ListView
         android:id="@+id/list_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:background="@drawable/choose_area_bg"/>
 
 </LinearLayout>

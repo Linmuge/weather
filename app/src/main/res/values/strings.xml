@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Weather</string>
+    <string name="app_name">忠禹天气</string>
+    <string name="launch_text">郭忠禹毕业设计</string>
+    <string name="launch_text2">河北交通职业技术学院</string>
+    <string name="_15_3">2015届电信15–3班</string>
+    <string name="launch_text4">一个天气</string>
 </resources>
